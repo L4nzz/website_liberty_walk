@@ -4,13 +4,30 @@
 <meta charset="utf-8">
 <title>index</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/responsiveslides.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/responsiveslides.js"></script>
+  <script src="js/slideshow-variabeln.js"></script>
 </head>
+
 <body>
-  <div class="nav">
-    <img src="img/lb_icon.png" class="logo">
-    Navigation</div>
+  <div class="nav topnav" id="myTopnav">
+    <img src="img/lb_icon.png" alt="LB" class="logo">
+
+    <a href="#home" class="active">Brands</a>
+    <a href="#news">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
   <div class="image">
-    <div class="title">Ford Mustang</div>
+    <div class="rslides_container">
+
+      <ul class="rslides" id="slider1">
+        <li><img src="img/1.jpg" alt=""></li>
+        <li><img src="img/2.jpg" alt=""></li>
+        <li><img src="img/3.jpg" alt=""></li>
+      </ul>
+    </div>
   </div>
   <div class="subtext"></div>
   <div class="footer"></div>
