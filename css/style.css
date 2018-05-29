@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  height: 100px;
+  width: 100%;
+  background-color: #1C1C1C;
+  font-size: 7vw;
+}
+
+.logo {
+  width: 10%;
+  max-width: 50px;
+}
+
+.image {
+  height: 100px;
+  width: 100%;
+  background-color: #1C1C1C;
+}
+
+.subtext {
+  height: 100px;
+  width: 100%;
+  background-color: #1C1C1C;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #1C1C1C;
+}
